@@ -1,0 +1,25 @@
+
+=== SPs=(4, 4, 2), vessels_num=10, rollout=random====
+info_delay_steps 3
+[MCTS] N=10, K=36, M=10, uav=2, tau=30.0min
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=0) with N=4937
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=28202
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=77250
+total 0.0 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=12, ob_time_idx=12) with N=78630
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=96283
+total 19.73815183554084 r 0.0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=14, ob_time_idx=21) with N=81062
+total 39.69205655446292 r 19.953904718922082
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=5, ob_time_idx=22) with N=117143
+total 52.26693882917252 r 12.574882274709593
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=505036
+total 71.59488829966534 r 19.32794947049282
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=29) with N=538523
+total 71.59488829966534 r 0.0
+[rep=0] reward=71.5949, served=4, decisions=9, time=45.002s
+[OK] wrote excel: F:\1-Phd_Thesis_codes\MCTS_project\result\2026_0224_1854_mcts_online_eval\exp_20260224_185456_random.xlsx
+[OK] wrote log:   F:\1-Phd_Thesis_codes\MCTS_project\result\2026_0224_1854_mcts_online_eval\exp_20260224_185456_random.log

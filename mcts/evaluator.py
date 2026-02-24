@@ -43,18 +43,23 @@ def run_episode(env: OnlineEnv,
         if not acts:
             # 没有可动 UAV：推进到下一步
             s = type(s)(t_idx=min(s.t_idx + 1, env.cfg.horizon_steps - 1),
-                        uavs=s.uavs, served=s.served, scen_mask=s.scen_mask)
+                        uavs=s.uavs, served=s.served, vessel_traj=s.vessel_traj)
             continue
 
         a = planner.plan(s, budget_ms=budget_ms, iters=iters)
-        if a is None:
-            s = type(s)(t_idx=min(s.t_idx + 1, env.cfg.horizon_steps - 1),
-                        uavs=s.uavs, served=s.served, scen_mask=s.scen_mask)
-            continue
+        # if a is None:
+        #     s = type(s)(t_idx=min(s.t_idx + 1, env.cfg.horizon_steps - 1),
+        #                 uavs=s.uavs, served=s.served, vessel_traj=s.vessel_traj)
+        #     continue
 
+        # print('decision_cnt', decision_cnt, 't_idx', s.t_idx, 'action', a)
+        # print('decision_cnt', decision_cnt, 's.t_idx', s.t_idx, 's.uavs', s.uavs)
         decision_cnt += 1
         s, r = env.step_real(s, a)
+        # print('decision_cnt+1', decision_cnt, 't_idx', s.t_idx, 'action', a)
+        # print('decision_cnt+1', decision_cnt, 's.t_idx', s.t_idx, 's.uavs', s.uavs)
         total += float(r)
+        print('total', total, 'r', r)
 
     return EvalResult(
         total_reward=total,

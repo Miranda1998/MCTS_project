@@ -1,0 +1,193 @@
+
+=== SPs=(0, 0, 2), vessels_num=10====
+当前平台数量为: (0, 0, 2)
+当前船舶数量为: 10
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}, {6, 7}]}
+ADMM-DP求解得到的obj 77.2607878556852
+best_obj after repair 77.2607878556852
+best_sol after repair [[], [], [[(2, 1), (10, 5), (14, 20), (13, 22), (2, 35)], [(1, 3), (11, 10), (12, 22), (0, 35)]]]
+[SERIAL-GS] Iter 1: LB=77.2608 gap=inf max_dlambda=5.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}, {3, 4}]}
+ADMM-DP求解得到的obj 74.05134162403017
+[SERIAL-GS] Iter 2: LB=77.2608 gap=inf max_dlambda=5.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [set(), {6, 7}]}
+ADMM-DP求解得到的obj 31.89183777280467
+[SERIAL-GS] Iter 3: LB=77.2608 gap=inf max_dlambda=2.5000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}, {6, 7}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 4: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8}, {9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 5: LB=77.2608 gap=inf max_dlambda=1.2500e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 6: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 7: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 8: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 9: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 10: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 11: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 12: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 13: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 14: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 15: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 16: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 17: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 18: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 19: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 20: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 21: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 22: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 23: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 24: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 25: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 26: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 27: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 28: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 29: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 30: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 31: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 32: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 33: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 34: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 35: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 36: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 37: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 38: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 39: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 40: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 41: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 42: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 43: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 44: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 45: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 46: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 47: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 48: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 49: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}, {8, 9, 5}]}
+ADMM-DP求解得到的obj 77.2607878556852
+[SERIAL-GS] Iter 50: LB=77.2608 gap=inf max_dlambda=0.0000e+00
+[OK] final_best_obj= 77.2607878556852
+[OK] final_best_sol= [[], [], [[(2, 1), (10, 5), (14, 20), (13, 22), (2, 35)], [(1, 3), (11, 10), (12, 22), (0, 35)]]]
+[OK] wrote excel: F:\1-Phd_Thesis_codes\MCTS_project\validation-DP\result\2026_0220_admm_dp_serial_gs_final\exp_20260224_132856_ADMM_DP.xlsx
+[OK] wrote log:   F:\1-Phd_Thesis_codes\MCTS_project\validation-DP\result\2026_0220_admm_dp_serial_gs_final\exp_20260224_132856_ADMM_DP.log
+
+=== SPs=(0, 0, 2), vessels_num=30====
+当前平台数量为: (0, 0, 2)
+当前船舶数量为: 30
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}, {24, 20, 29}]}
+ADMM-DP求解得到的obj 104.59718232528144
+best_obj after repair 104.59718232528144
+best_sol after repair [[], [], [[(2, 4), (16, 14), (10, 24), (32, 31), (2, 35)], [(1, 1), (29, 15), (34, 17), (25, 20), (1, 35)]]]
+[SERIAL-GS] Iter 1: LB=104.5972 gap=inf max_dlambda=5.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 25, 19}, {16, 3, 22}]}
+ADMM-DP求解得到的obj 93.19196213312588
+[SERIAL-GS] Iter 2: LB=104.5972 gap=inf max_dlambda=5.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 5}, {19, 25, 27}]}
+ADMM-DP求解得到的obj 89.19366165417682
+[SERIAL-GS] Iter 3: LB=104.5972 gap=inf max_dlambda=2.5000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{24, 20, 29}, {11, 27, 5}]}
+ADMM-DP求解得到的obj 104.59718232528144
+[SERIAL-GS] Iter 4: LB=104.5972 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{24, 20, 29}, {11, 27, 5}]}
+ADMM-DP求解得到的obj 104.59718232528144
+[SERIAL-GS] Iter 5: LB=104.5972 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{24, 20, 29}, {11, 27, 5}]}
+ADMM-DP求解得到的obj 104.59718232528144
+[SERIAL-GS] Iter 6: LB=104.5972 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{24, 20, 29}, {11, 27, 5}]}
+ADMM-DP求解得到的obj 104.59718232528144
+[SERIAL-GS] Iter 7: LB=104.5972 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{24, 20, 29}, {11, 27, 5}]}
+ADMM-DP求解得到的obj 104.59718232528144
+[SERIAL-GS] Iter 8: LB=104.5972 gap=inf max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{24, 20, 29}, {11, 27, 5}]}
+ADMM-DP求解得到的obj 104.59718232528144
+[SERIAL-GS] Iter 9: LB=104.5972 gap=inf max_dlambda=0.0000e+00

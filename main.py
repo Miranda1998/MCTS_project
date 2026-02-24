@@ -2,14 +2,13 @@
 from datetime import datetime
 import os
 import time
+import numpy as np
 import sys
 from openpyxl import Workbook
 from args import parse_args
 from data_loader import Load_Data, Load_Trajectories
 
 # ===== 你的 ADMM 相关仍可保留 =====
-# from ADMM import *
-# from ADMM_LNS import *
 
 from mcts.env import OnlineEnv, OnlineEnvConfig
 from mcts.mcts_core import MCTSPlanner
@@ -44,37 +43,37 @@ def _ensure_header_mcts(ws):
             "walltime(s)"
         ])
 
-def run_mcts_group(args, wb, rou0, date_today):
+def run_mcts_group(args, wb, vessels_num, drones_num):
     ws_name = "MCTS_result"
     ws = wb[ws_name] if ws_name in wb.sheetnames else wb.create_sheet(ws_name)
     _ensure_header_mcts(ws)
 
     # load trajectories
-    traj_true, traj_mean, scenarios = Load_Trajectories(args, n_vessels=None)
+    traj_true, traj_mean, scenarios = Load_Trajectories(args, n_vessels=vessels_num)
     N, K, _ = traj_true.shape
     M = scenarios.shape[0]
 
-    # reward：若你已有 Reward.xlsx，可在此读取；这里先给占位：全 1
-    reward = (1.0 + 0.0 * (os.urandom(1)[0])) * (1.0)  # avoid lint
-    reward_vec = (1.0 + 0.0) * (1.0)
-    reward_arr = (1.0 + 0.0) * (1.0)
-    import numpy as np
-    reward = np.ones(N, dtype=float)
+    (horizon_steps, slot_gap, drone_battery, drone_base_num, drone_feasible_pair, reward,
+     drone_speed, drone_obs_dwell) = Load_Data(args, vessels_num)
 
-    horizon_steps = int(args.horizon_hours * 60.0 / args.slot_gap_min)
-    horizon_steps = min(horizon_steps, K)
+    info_delay_steps = int(round(args.info_delay_min / slot_gap))
 
-    info_delay_steps = int(round(args.info_delay_min / args.slot_gap_min))
-    uav_obs_dwell_steps = int(round(args.uav_obs_dwell_min / args.slot_gap_min))
+    print('info_delay_steps', info_delay_steps)
 
     cfg = OnlineEnvConfig(
-        slot_gap_min=float(args.slot_gap_min),
+        slot_gap_min=float(args.slot_gap),
         horizon_steps=int(horizon_steps),
         info_delay_steps=int(info_delay_steps),
-        uav_speed_kmph=float(args.uav_speed_kmph),
-        uav_obs_dwell_steps=int(uav_obs_dwell_steps),
+        vessels_num=int(vessels_num),
+        uav_num=int(drones_num),
+        uav_battery_capacity=int(drone_battery),
+        uav_speed_kmph=float(args.drone_speed),
+        feasible_pair=drone_feasible_pair,
+        uav_obs_dwell_steps=int(drone_obs_dwell),
         hit_radius_km_aeos=float(args.hit_radius_km_aeos),
         hit_radius_km_airship=float(args.hit_radius_km_airship),
+        hit_radius_km_drones=float(args.hit_radius_km_drones),
+        base_set=list(range(int(drone_base_num)))
     )
 
     env = OnlineEnv(
@@ -85,13 +84,12 @@ def run_mcts_group(args, wb, rou0, date_today):
         cfg=cfg,
         normal_plan=None  # TODO: 把 ADMM-LNS 输出的常态化监测计划塞进来
     )
-    env.set_uav_num(args.uav_num)
 
     # 观测一致性门限：简单取 AEOS 半径或其比例
     gate = float(args.hit_radius_km_aeos)
     updater = ScenarioUpdater(scenarios=scenarios, gate_km=gate)
 
-    print(f"[MCTS] N={N}, K={horizon_steps}, M={M}, uav={args.uav_num}, tau={args.info_delay_min}min")
+    print(f"[MCTS] N={N}, K={horizon_steps}, M={M}, uav={drones_num}, tau={args.info_delay_min}min")
 
     for rep in range(args.repeat):
         t0 = time.perf_counter()
@@ -116,7 +114,7 @@ def run_mcts_group(args, wb, rou0, date_today):
             int(N),
             int(horizon_steps),
             int(M),
-            int(args.uav_num),
+            int(drones_num),
             float(args.info_delay_min),
             int(args.mcts_budget_ms if args.mcts_iters == 0 else args.mcts_iters),
             int(rep),
@@ -139,25 +137,31 @@ def main():
     os.makedirs(result_dir, exist_ok=True)
 
     stamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    txt_path = os.path.join(result_dir, f"exp_{stamp}_{args.mode}.log")
-    xlsx_path = os.path.join(result_dir, f"exp_{stamp}_{args.mode}.xlsx")
 
-    old_stdout = sys.stdout
-    with open(txt_path, "w", encoding="utf-8") as f:
-        sys.stdout = Tee(old_stdout, f)
-        try:
-            print(f"[RUN] mode={args.mode}, exp={args.exp_name}")
-            if args.mode == "mcts":
-                run_mcts_group(args, wb, rou0, date_today=date_now)
-            else:
-                # 你的原 ADMM_DP 主流程仍可放这里（保持兼容）
-                print("[WARN] admm_dp mode not wired in this template.")
-            wb.save(xlsx_path)
-            print(f"[OK] wrote excel: {xlsx_path}")
-            print(f"[OK] wrote log:   {txt_path}")
-        finally:
-            sys.stdout = old_stdout
-            wb.save(xlsx_path)
+
+    for rollout_policy in ["random", "eps_greedy", "adp"]:
+        args.rollout_policy = rollout_policy
+
+        txt_path = os.path.join(result_dir, f"exp_{stamp}_{args.rollout_policy}.log")
+        xlsx_path = os.path.join(result_dir, f"exp_{stamp}_{args.rollout_policy}.xlsx")
+
+        old_stdout = sys.stdout
+        with open(txt_path, "w", encoding="utf-8") as f:
+            sys.stdout = Tee(old_stdout, f)
+            try:
+                for drones in range(1, 4):
+                    for vessels in range(10, 60, 20):
+                        for time_budget in [5000, 10000, 15000, 20000, 25000, 30000]:
+                            args.mcts_budget_ms = time_budget
+                            print(f"\n=== SPs={(4, 4, drones)}, vessels_num={vessels}, rollout={args.rollout_policy}====")
+                            print(f"\n=== time_budget={time_budget}")
+                            run_mcts_group(args, wb, vessels_num=vessels, drones_num=drones)
+                wb.save(xlsx_path)
+                print(f"[OK] wrote excel: {xlsx_path}")
+                print(f"[OK] wrote log:   {txt_path}")
+            finally:
+                sys.stdout = old_stdout
+                wb.save(xlsx_path)
 
 if __name__ == '__main__':
     main()

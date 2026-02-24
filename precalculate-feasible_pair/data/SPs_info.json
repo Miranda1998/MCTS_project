@@ -1,0 +1,9 @@
+{
+  "drone_base_pos": [[29, -95], [29, -93], [29, -91], [29, -89], [29, -87]],
+  "ScheduleHorizon": 6,
+  "SlotGap": 10,
+  "drone_speed": 55.6,
+  "drone_battery": 24,
+  "drone_base_num": 5,
+  "vessel_total_num": 50
+}

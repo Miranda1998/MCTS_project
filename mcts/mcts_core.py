@@ -54,6 +54,7 @@ class MCTSPlanner:
             if ch.N > best_n:
                 best_n = ch.N
                 best_a = a
+        print('MCTS: root has {} children, best action {} with N={}'.format(len(root.children), best_a, best_n))
         return best_a
 
     def _iterate(self, root: Node) -> None:
@@ -97,15 +98,52 @@ class MCTSPlanner:
                 best = ch
         return best  # type: ignore
 
-    def _rollout(self, s: WorldState) -> float:
+    def _rollout_old(self, s: WorldState) -> float:
         total = 0.0
         cur = s
         for _ in range(self.rollout_depth):
             a = self.rollout_fn(self.env, cur, self.rng)
+            print('rollout action:', a)
             if a is None:
                 break
             cur, r = self.env.step_real(cur, a)  # 更严格：rollout 用 step_sim（下面说明）
             total += float(r)
             if cur.t_idx >= self.env.cfg.horizon_steps - 1:
+                # 最后一个任务必须是基站，否则狠狠惩罚
+                for u in s.uavs:
+                    if u.pos > len(self.env.cfg.base_set) - 1:
+                        total -= 10.0
+                        break
                 break
+
+        return total
+
+    def _rollout(self, s: WorldState) -> float:
+        total = 0.0
+        cur = s
+
+        for _ in range(self.rollout_depth):
+            # if s.uavs[0].pos == 6:
+            #     print('rollout start state start with 6:', cur.uavs)
+            # if s.uavs[0].pos == 10:
+            #     print('rollout start state start with 10:', cur.uavs)
+
+            a = self.rollout_fn(self.env, cur, self.rng)
+            if a is None:
+                break
+            cur, r = self.env.step_real(cur, a)
+            total += float(r)
+            if cur.t_idx >= self.env.cfg.horizon_steps - 1:
+                break
+
+        # ✅ rollout 结束统一检查“是否都在基站”
+        B = len(self.env.cfg.base_set)
+
+        # 注意：这里的“在基站”判定要基于你的编码规则
+        # 若你约定：基站节点 id 一定是 0..B-1，则下面成立
+        for u in cur.uavs:  # ✅ 用 cur 不是 s
+            if u.pos >= B:  # ✅ 不在基站
+                total -= 50.0
+                break
+
         return total

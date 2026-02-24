@@ -1,0 +1,27 @@
+
+=== SPs=(1, 1, 1), vessels_num=10====
+当前平台数量为: (1, 1, 1)
+当前船舶数量为: 10
+[OK] final_sol= 45.368950082880524
+[OK] final_path= [(2, 1), (10, 5), (14, 20), (13, 22), (2, 35)]
+[OK] final_selected_vessels= {8, 9, 5}
+[OK] wrote excel: F:\1-Phd_Thesis_codes\MCTS_project\validation-DP\result\2026_0220_admm_dp_serial_gs_final\exp_20260224_120732_ADMM_DP.xlsx
+[OK] wrote log:   F:\1-Phd_Thesis_codes\MCTS_project\validation-DP\result\2026_0220_admm_dp_serial_gs_final\exp_20260224_120732_ADMM_DP.log
+
+=== SPs=(1, 1, 1), vessels_num=30====
+当前平台数量为: (1, 1, 1)
+当前船舶数量为: 30
+[OK] final_sol= 58.62432237187302
+[OK] final_path= [(2, 4), (16, 14), (10, 24), (32, 31), (2, 35)]
+[OK] final_selected_vessels= {27, 11, 5}
+[OK] wrote excel: F:\1-Phd_Thesis_codes\MCTS_project\validation-DP\result\2026_0220_admm_dp_serial_gs_final\exp_20260224_120732_ADMM_DP.xlsx
+[OK] wrote log:   F:\1-Phd_Thesis_codes\MCTS_project\validation-DP\result\2026_0220_admm_dp_serial_gs_final\exp_20260224_120732_ADMM_DP.log
+
+=== SPs=(1, 1, 1), vessels_num=50====
+当前平台数量为: (1, 1, 1)
+当前船舶数量为: 50
+[OK] final_sol= 98.36193666239517
+[OK] final_path= [(0, 0), (42, 4), (39, 6), (46, 15), (43, 17), (21, 20), (27, 23), (0, 35)]
+[OK] final_selected_vessels= {34, 37, 38, 41, 16, 22}
+[OK] wrote excel: F:\1-Phd_Thesis_codes\MCTS_project\validation-DP\result\2026_0220_admm_dp_serial_gs_final\exp_20260224_120732_ADMM_DP.xlsx
+[OK] wrote log:   F:\1-Phd_Thesis_codes\MCTS_project\validation-DP\result\2026_0220_admm_dp_serial_gs_final\exp_20260224_120732_ADMM_DP.log

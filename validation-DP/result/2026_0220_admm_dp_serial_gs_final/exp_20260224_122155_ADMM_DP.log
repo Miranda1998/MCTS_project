@@ -1,0 +1,480 @@
+
+=== SPs=(0, 0, 1), vessels_num=10====
+当前平台数量为: (0, 0, 1)
+当前船舶数量为: 10
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+best_obj after repair 45.368950082880524
+best_sol after repair [[], [], [[(2, 1), (10, 5), (14, 20), (13, 22), (2, 35)]]]
+[SERIAL-GS] Iter 1: UB=80.3690 (ub_cand=80.3690) LB=45.3690 gap=0.435492 max_dlambda=5.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{6, 7}]}
+ADMM-DP求解得到的obj 31.89183777280467
+[SERIAL-GS] Iter 2: UB=46.8918 (ub_cand=46.8918) LB=45.3690 gap=0.032477 max_dlambda=5.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 3: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 4: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 5: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 6: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 7: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 8: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 9: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 10: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 11: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 12: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 13: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 14: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 15: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 16: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 17: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 18: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 19: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 20: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 21: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 22: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 23: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 24: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 25: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 26: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 27: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 28: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 29: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 30: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 31: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 32: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 33: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 34: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 35: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 36: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 37: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 38: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 39: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 40: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 41: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 42: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 43: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 44: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 45: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 46: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 47: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 48: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 49: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{8, 9, 5}]}
+ADMM-DP求解得到的obj 45.368950082880524
+[SERIAL-GS] Iter 50: UB=45.3690 (ub_cand=45.3690) LB=45.3690 gap=0.000000 max_dlambda=0.0000e+00
+[OK] final_best_obj= 45.368950082880524
+[OK] final_best_sol= [[], [], [[(2, 1), (10, 5), (14, 20), (13, 22), (2, 35)]]]
+[OK] wrote excel: F:\1-Phd_Thesis_codes\MCTS_project\validation-DP\result\2026_0220_admm_dp_serial_gs_final\exp_20260224_122155_ADMM_DP.xlsx
+[OK] wrote log:   F:\1-Phd_Thesis_codes\MCTS_project\validation-DP\result\2026_0220_admm_dp_serial_gs_final\exp_20260224_122155_ADMM_DP.log
+
+=== SPs=(0, 0, 1), vessels_num=30====
+当前平台数量为: (0, 0, 1)
+当前船舶数量为: 30
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+best_obj after repair 55.89344483700993
+best_sol after repair [[], [], [[(2, 4), (16, 14), (10, 24), (32, 31), (2, 35)]]]
+[SERIAL-GS] Iter 1: UB=190.8934 (ub_cand=190.8934) LB=55.8934 gap=0.707201 max_dlambda=5.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{24, 20, 29}]}
+ADMM-DP求解得到的obj 48.703737488271514
+[SERIAL-GS] Iter 2: UB=63.7037 (ub_cand=63.7037) LB=55.8934 gap=0.122603 max_dlambda=5.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 3: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 4: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 5: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 6: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 7: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 8: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 9: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 10: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 11: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 12: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 13: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 14: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 15: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 16: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 17: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 18: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 19: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 20: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 21: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 22: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 23: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 24: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 25: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 26: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 27: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 28: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 29: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 30: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 31: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 32: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 33: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 34: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 35: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 36: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 37: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 38: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 39: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 40: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 41: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 42: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 43: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 44: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 45: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 46: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 47: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 48: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 49: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{11, 27, 5}]}
+ADMM-DP求解得到的obj 55.89344483700993
+[SERIAL-GS] Iter 50: UB=55.8934 (ub_cand=55.8934) LB=55.8934 gap=0.000000 max_dlambda=0.0000e+00
+[OK] final_best_obj= 55.89344483700993
+[OK] final_best_sol= [[], [], [[(2, 4), (16, 14), (10, 24), (32, 31), (2, 35)]]]
+[OK] wrote excel: F:\1-Phd_Thesis_codes\MCTS_project\validation-DP\result\2026_0220_admm_dp_serial_gs_final\exp_20260224_122155_ADMM_DP.xlsx
+[OK] wrote log:   F:\1-Phd_Thesis_codes\MCTS_project\validation-DP\result\2026_0220_admm_dp_serial_gs_final\exp_20260224_122155_ADMM_DP.log
+
+=== SPs=(0, 0, 1), vessels_num=50====
+当前平台数量为: (0, 0, 1)
+当前船舶数量为: 50
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+best_obj after repair 88.93919437210081
+best_sol after repair [[], [], [[(0, 0), (42, 4), (39, 6), (46, 15), (43, 17), (21, 20), (27, 23), (0, 35)]]]
+[SERIAL-GS] Iter 1: UB=308.9392 (ub_cand=308.9392) LB=88.9392 gap=0.712114 max_dlambda=5.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{5, 45, 48, 49, 27}]}
+ADMM-DP求解得到的obj 81.43306282034241
+[SERIAL-GS] Iter 2: UB=111.4331 (ub_cand=111.4331) LB=88.9392 gap=0.201860 max_dlambda=5.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 3: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 4: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 5: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 6: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 7: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 8: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 9: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 10: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 11: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 12: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 13: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 14: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 15: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 16: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 17: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 18: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 19: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 20: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 21: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 22: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 23: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 24: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 25: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 26: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 27: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 28: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 29: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 30: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 31: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 32: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 33: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 34: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 35: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 36: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 37: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 38: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 39: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 40: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 41: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 42: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 43: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 44: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 45: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 46: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 47: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 48: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 49: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+难道admm中就出错了 {'AEOS': [], 'AIR': [], 'UAV': [{34, 37, 38, 41, 16, 22}]}
+ADMM-DP求解得到的obj 88.93919437210081
+[SERIAL-GS] Iter 50: UB=88.9392 (ub_cand=88.9392) LB=88.9392 gap=0.000000 max_dlambda=0.0000e+00
+[OK] final_best_obj= 88.93919437210081
+[OK] final_best_sol= [[], [], [[(0, 0), (42, 4), (39, 6), (46, 15), (43, 17), (21, 20), (27, 23), (0, 35)]]]
+[OK] wrote excel: F:\1-Phd_Thesis_codes\MCTS_project\validation-DP\result\2026_0220_admm_dp_serial_gs_final\exp_20260224_122155_ADMM_DP.xlsx
+[OK] wrote log:   F:\1-Phd_Thesis_codes\MCTS_project\validation-DP\result\2026_0220_admm_dp_serial_gs_final\exp_20260224_122155_ADMM_DP.log
