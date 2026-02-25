@@ -1,0 +1,6 @@
+
+=== SPs=(4, 4, 1), vessels_num=10, rollout=random====
+
+=== time_budget=5000
+info_delay_steps 3
+[MCTS] N=10, K=36, M=10, uav=1, tau=30.0min

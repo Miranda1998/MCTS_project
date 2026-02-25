@@ -1,0 +1,1774 @@
+
+=== SPs=(4, 4, 2), vessels_num=10, rollout=eps_greedy====
+
+=== time_budget=1000
+info_delay_steps 3
+[MCTS] N=10, K=36, M=10, uav=2, tau=30.0min
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=1) with N=953
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=4405
+total 0.0 r 0.0
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=13003
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=12, ob_time_idx=13) with N=20461
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=29182
+total 19.73815183554084 r 0.0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=22) with N=22638
+total 39.69205655446292 r 19.953904718922082
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=5, ob_time_idx=23) with N=33273
+total 52.74797252709301 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=138618
+total 72.07592199758582 r 19.32794947049282
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=30) with N=151529
+total 72.07592199758582 r 0.0
+[rep=0] reward=72.0759, served=4, decisions=9, time=9.001s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=0) with N=999
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=4836
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=13999
+total 0.0 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=8, ob_time_idx=13) with N=19771
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=32153
+total 19.73815183554084 r 0.0
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=14, ob_time_idx=21) with N=29202
+total 31.513700680613958 r 11.775548845073118
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=9, ob_time_idx=17) with N=20753
+total 48.42054337669049 r 16.90684269607653
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=32) with N=84594
+total 60.99542565140008 r 12.574882274709593
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=192926
+total 60.99542565140008 r 0.0
+[rep=1] reward=60.9954, served=4, decisions=9, time=9.021s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=0) with N=851
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=4456
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=13896
+total 0.0 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=8, ob_time_idx=13) with N=19627
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=32073
+total 19.73815183554084 r 0.0
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=14, ob_time_idx=21) with N=28877
+total 31.513700680613958 r 11.775548845073118
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=9, ob_time_idx=17) with N=20713
+total 48.42054337669049 r 16.90684269607653
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=1, ob_time_idx=33) with N=85046
+total 60.99542565140008 r 12.574882274709593
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=207659
+total 60.99542565140008 r 0.0
+[rep=2] reward=60.9954, served=4, decisions=9, time=9.001s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=1) with N=960
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=4384
+total 0.0 r 0.0
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=12791
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=12, ob_time_idx=13) with N=20258
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=28714
+total 19.73815183554084 r 0.0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=22) with N=22765
+total 39.69205655446292 r 19.953904718922082
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=5, ob_time_idx=23) with N=33357
+total 52.74797252709301 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=138726
+total 72.07592199758582 r 19.32794947049282
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=30) with N=150903
+total 72.07592199758582 r 0.0
+[rep=3] reward=72.0759, served=4, decisions=9, time=9.001s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=0) with N=993
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=4530
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=14041
+total 0.0 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=12, ob_time_idx=12) with N=19174
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=24860
+total 19.73815183554084 r 0.0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=21260
+total 39.69205655446292 r 19.953904718922082
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=5, ob_time_idx=22) with N=30944
+total 52.74797252709301 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=132445
+total 72.07592199758582 r 19.32794947049282
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=29) with N=145408
+total 72.07592199758582 r 0.0
+[rep=4] reward=72.0759, served=4, decisions=9, time=9.001s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=0) with N=1073
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=4418
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=13444
+total 0.0 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=8, ob_time_idx=13) with N=19520
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=32320
+total 19.73815183554084 r 0.0
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=14, ob_time_idx=21) with N=29068
+total 31.513700680613958 r 11.775548845073118
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=9, ob_time_idx=17) with N=20673
+total 48.42054337669049 r 16.90684269607653
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=1, ob_time_idx=33) with N=84499
+total 60.99542565140008 r 12.574882274709593
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=207220
+total 60.99542565140008 r 0.0
+[rep=5] reward=60.9954, served=4, decisions=9, time=9.001s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=1) with N=950
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=4370
+total 0.0 r 0.0
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=13420
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=12, ob_time_idx=13) with N=20300
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=26794
+total 19.73815183554084 r 0.0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=22) with N=22483
+total 39.69205655446292 r 19.953904718922082
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=5, ob_time_idx=23) with N=33324
+total 52.74797252709301 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=138281
+total 72.07592199758582 r 19.32794947049282
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=30) with N=152232
+total 72.07592199758582 r 0.0
+[rep=6] reward=72.0759, served=4, decisions=9, time=9.002s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=962
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=2719
+total 0.0 r 0.0
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=13293
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=39147
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=14487
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=31577
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=22) with N=10454
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=21) with N=26710
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=33) with N=164090
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=183594
+total 45.93902399565004 r 0.0
+[rep=7] reward=45.9390, served=3, decisions=10, time=10.002s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=0) with N=1046
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=4506
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=12742
+total 0.0 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=8, ob_time_idx=13) with N=20046
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=37023
+total 19.73815183554084 r 0.0
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=21) with N=28804
+total 31.513700680613958 r 11.775548845073118
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=9, ob_time_idx=17) with N=20623
+total 48.42054337669049 r 16.90684269607653
+MCTS: root has 2 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=32) with N=85353
+total 60.99542565140008 r 12.574882274709593
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=192829
+total 60.99542565140008 r 0.0
+[rep=8] reward=60.9954, served=4, decisions=9, time=9.001s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=0) with N=1130
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=4478
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=13415
+total 0.0 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=8, ob_time_idx=13) with N=19749
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=32036
+total 19.73815183554084 r 0.0
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=21) with N=28774
+total 31.513700680613958 r 11.775548845073118
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=9, ob_time_idx=17) with N=20719
+total 48.42054337669049 r 16.90684269607653
+MCTS: root has 2 children, best action Action(uav_id=1, vessel_id=1, ob_time_idx=33) with N=85273
+total 60.99542565140008 r 12.574882274709593
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=206875
+total 60.99542565140008 r 0.0
+[rep=9] reward=60.9954, served=4, decisions=9, time=9.001s
+
+=== SPs=(4, 4, 2), vessels_num=10, rollout=eps_greedy====
+
+=== time_budget=5000
+info_delay_steps 3
+[MCTS] N=10, K=36, M=10, uav=2, tau=30.0min
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=0) with N=2785
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=40089
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=66351
+total 0.0 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=8, ob_time_idx=13) with N=94983
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=119286
+total 19.73815183554084 r 0.0
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=14, ob_time_idx=21) with N=133496
+total 31.513700680613958 r 11.775548845073118
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=9, ob_time_idx=17) with N=100560
+total 48.42054337669049 r 16.90684269607653
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=32) with N=423895
+total 60.99542565140008 r 12.574882274709593
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=962997
+total 60.99542565140008 r 0.0
+[rep=0] reward=60.9954, served=4, decisions=9, time=45.001s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=0) with N=2971
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=34820
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=70671
+total 0.0 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=8, ob_time_idx=13) with N=94005
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=139525
+total 19.73815183554084 r 0.0
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=14, ob_time_idx=21) with N=134171
+total 31.513700680613958 r 11.775548845073118
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=9, ob_time_idx=17) with N=100000
+total 48.42054337669049 r 16.90684269607653
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=1, ob_time_idx=33) with N=422471
+total 60.99542565140008 r 12.574882274709593
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=1032183
+total 60.99542565140008 r 0.0
+[rep=1] reward=60.9954, served=4, decisions=9, time=45.001s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=2744
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=36978
+total 0.0 r 0.0
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=73067
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=185785
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=62499
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=123482
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=22) with N=49455
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=21) with N=130576
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=33) with N=820181
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=908904
+total 45.93902399565004 r 0.0
+[rep=2] reward=45.9390, served=3, decisions=10, time=50.002s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=3265
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=35105
+total 0.0 r 0.0
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=78975
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=185537
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=63054
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=124172
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=22) with N=49389
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=21) with N=130865
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=33) with N=820643
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=914555
+total 45.93902399565004 r 0.0
+[rep=3] reward=45.9390, served=3, decisions=10, time=50.002s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=0) with N=2818
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=39530
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=71247
+total 0.0 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=12, ob_time_idx=12) with N=95567
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=118534
+total 19.73815183554084 r 0.0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=99770
+total 39.69205655446292 r 19.953904718922082
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=5, ob_time_idx=22) with N=149380
+total 52.74797252709301 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=663575
+total 72.07592199758582 r 19.32794947049282
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=29) with N=724813
+total 72.07592199758582 r 0.0
+[rep=4] reward=72.0759, served=4, decisions=9, time=45.001s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=0) with N=2821
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=39143
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=69384
+total 0.0 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=8, ob_time_idx=13) with N=95283
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=138054
+total 19.73815183554084 r 0.0
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=14, ob_time_idx=21) with N=133914
+total 31.513700680613958 r 11.775548845073118
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=9, ob_time_idx=17) with N=100358
+total 48.42054337669049 r 16.90684269607653
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=32) with N=422652
+total 60.99542565140008 r 12.574882274709593
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=957648
+total 60.99542565140008 r 0.0
+[rep=5] reward=60.9954, served=4, decisions=9, time=45.001s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=3136
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=37429
+total 0.0 r 0.0
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=72851
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=184969
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=62290
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=123635
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=22) with N=49583
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=21) with N=130855
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=33) with N=821367
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=913922
+total 45.93902399565004 r 0.0
+[rep=6] reward=45.9390, served=3, decisions=10, time=50.002s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=3165
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=35510
+total 0.0 r 0.0
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=71892
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=185563
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=62895
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=124656
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=22) with N=49288
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=21) with N=130934
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=33) with N=821219
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=919774
+total 45.93902399565004 r 0.0
+[rep=7] reward=45.9390, served=3, decisions=10, time=50.002s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=0) with N=2545
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=39102
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=69638
+total 0.0 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=8, ob_time_idx=13) with N=94766
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=119069
+total 19.73815183554084 r 0.0
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=21) with N=134062
+total 31.513700680613958 r 11.775548845073118
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=9, ob_time_idx=17) with N=100512
+total 48.42054337669049 r 16.90684269607653
+MCTS: root has 2 children, best action Action(uav_id=1, vessel_id=1, ob_time_idx=33) with N=424254
+total 60.99542565140008 r 12.574882274709593
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=1035132
+total 60.99542565140008 r 0.0
+[rep=8] reward=60.9954, served=4, decisions=9, time=45.001s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=2976
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=36361
+total 0.0 r 0.0
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=71621
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=184770
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=63147
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=123378
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=21) with N=50005
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=22) with N=123792
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=33) with N=817245
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=915664
+total 45.93902399565004 r 0.0
+[rep=9] reward=45.9390, served=3, decisions=10, time=50.002s
+
+=== SPs=(4, 4, 2), vessels_num=10, rollout=eps_greedy====
+
+=== time_budget=10000
+info_delay_steps 3
+[MCTS] N=10, K=36, M=10, uav=2, tau=30.0min
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=5324
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=81994
+total 0.0 r 0.0
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=149377
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=348159
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=114776
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=224335
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=22) with N=97774
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=21) with N=260576
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=33) with N=1645459
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=1836275
+total 45.93902399565004 r 0.0
+[rep=0] reward=45.9390, served=3, decisions=10, time=100.002s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=5751
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=73232
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=145747
+total 0.0 r 0
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=379634
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=111234
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=211073
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=21) with N=89688
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=20) with N=233731
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=32) with N=1547298
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=1718235
+total 45.93902399565004 r 0.0
+[rep=1] reward=45.9390, served=3, decisions=10, time=100.002s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=5672
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=77756
+total 0.0 r 0.0
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=148882
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=346778
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=115519
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=224509
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=22) with N=97184
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=21) with N=260601
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=33) with N=1645569
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=1836100
+total 45.93902399565004 r 0.0
+[rep=2] reward=45.9390, served=3, decisions=10, time=100.002s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=5951
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=81682
+total 0.0 r 0.0
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=156340
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=346916
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=115123
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=223502
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=22) with N=97277
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=21) with N=259818
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=33) with N=1641466
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=1833083
+total 45.93902399565004 r 0.0
+[rep=3] reward=45.9390, served=3, decisions=10, time=100.002s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=5588
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=76573
+total 0.0 r 0.0
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=156696
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=347119
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=115249
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=222566
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=22) with N=96871
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=21) with N=260296
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=33) with N=1637028
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=1829061
+total 45.93902399565004 r 0.0
+[rep=4] reward=45.9390, served=3, decisions=10, time=100.002s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=5764
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=81110
+total 0.0 r 0.0
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=141154
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=348070
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=115192
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=226157
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=22) with N=97400
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=21) with N=258783
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=33) with N=1640203
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=1819790
+total 45.93902399565004 r 0.0
+[rep=5] reward=45.9390, served=3, decisions=10, time=100.002s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=5270
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=80290
+total 0.0 r 0.0
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=145649
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=347077
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=114742
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=224582
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=22) with N=97245
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=21) with N=258565
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=33) with N=1638466
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=1832405
+total 45.93902399565004 r 0.0
+[rep=6] reward=45.9390, served=3, decisions=10, time=100.002s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=5695
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=80334
+total 0.0 r 0.0
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=142510
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=348779
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=116293
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=223726
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=22) with N=97204
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=21) with N=259966
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=33) with N=1645889
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=1833048
+total 45.93902399565004 r 0.0
+[rep=7] reward=45.9390, served=3, decisions=10, time=100.002s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=5242
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=83561
+total 0.0 r 0.0
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=143535
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=347143
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=115350
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=225013
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=22) with N=97501
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=21) with N=261322
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=33) with N=1642728
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=1834372
+total 45.93902399565004 r 0.0
+[rep=8] reward=45.9390, served=3, decisions=10, time=100.030s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=5642
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=81162
+total 0.0 r 0.0
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=155659
+total 0.0 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=5) with N=345395
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=9) with N=115146
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=9) with N=225083
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=22) with N=97345
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=21) with N=259606
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=33) with N=1635402
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=1823359
+total 45.93902399565004 r 0.0
+[rep=9] reward=45.9390, served=3, decisions=10, time=100.002s
+
+=== SPs=(4, 4, 2), vessels_num=10, rollout=eps_greedy====
+
+=== time_budget=30000
+info_delay_steps 3
+[MCTS] N=10, K=36, M=10, uav=2, tau=30.0min
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=26775
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=244237
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=461240
+total 0.0 r 0
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=1029102
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=286299
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=562990
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=20) with N=265986
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=679912
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=32) with N=4654805
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=5143719
+total 45.93902399565004 r 0.0
+[rep=0] reward=45.9390, served=3, decisions=10, time=300.002s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=26715
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=206145
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=441655
+total 0.0 r 0
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=1032625
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=286771
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=562537
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=264367
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=20) with N=700211
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=32) with N=4640975
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=5156500
+total 45.93902399565004 r 0.0
+[rep=1] reward=45.9390, served=3, decisions=10, time=300.002s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=24911
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=217706
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=424054
+total 0.0 r 0
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=1035233
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=284951
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=559874
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=21) with N=264207
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=20) with N=705397
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=32) with N=4624840
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=5165044
+total 45.93902399565004 r 0.0
+[rep=2] reward=45.9390, served=3, decisions=10, time=300.002s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=27105
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=248383
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=441984
+total 0.0 r 0
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=1032611
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=286256
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=559435
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=264563
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=20) with N=701180
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=32) with N=4622494
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=5147989
+total 45.93902399565004 r 0.0
+[rep=3] reward=45.9390, served=3, decisions=10, time=300.002s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=24493
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=245491
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=423589
+total 0.0 r 0
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=1031958
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=284936
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=558437
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=21) with N=263510
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=20) with N=702416
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=32) with N=4650605
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=5148249
+total 45.93902399565004 r 0.0
+[rep=4] reward=45.9390, served=3, decisions=10, time=300.002s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=24210
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=253198
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=471046
+total 0.0 r 0
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=1031209
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=286665
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=560028
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=21) with N=263706
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=20) with N=697656
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=32) with N=4640033
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=5141123
+total 45.93902399565004 r 0.0
+[rep=5] reward=45.9390, served=3, decisions=10, time=300.002s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=24969
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=238089
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=453652
+total 0.0 r 0
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=1033529
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=286233
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=560326
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=264767
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=20) with N=703049
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=32) with N=4630018
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=5153573
+total 45.93902399565004 r 0.0
+[rep=6] reward=45.9390, served=3, decisions=10, time=300.002s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=25636
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=248405
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=442470
+total 0.0 r 0
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=1036614
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=284677
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=561143
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=265175
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=20) with N=702601
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=32) with N=4676083
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=5166381
+total 45.93902399565004 r 0.0
+[rep=7] reward=45.9390, served=3, decisions=10, time=300.002s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=25263
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=240342
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=438764
+total 0.0 r 0
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=1027511
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=282787
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=557618
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=21) with N=264565
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=20) with N=699155
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=32) with N=4625974
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=5149640
+total 45.93902399565004 r 0.0
+[rep=8] reward=45.9390, served=3, decisions=10, time=300.002s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=26630
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=246598
+total 0.0 r 0.0
+MCTS: root has 8 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=4) with N=441300
+total 0.0 r 0
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=4) with N=1035294
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=8) with N=285589
+total 19.73815183554084 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=8) with N=561725
+total 19.73815183554084 r 0.0
+MCTS: root has 10 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=21) with N=264274
+total 19.73815183554084 r 0
+MCTS: root has 5 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=20) with N=702003
+total 32.88310802301995 r 13.144956187479108
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=32) with N=4648269
+total 45.93902399565004 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=5144666
+total 45.93902399565004 r 0.0
+[rep=9] reward=45.9390, served=3, decisions=10, time=300.002s
+
+=== SPs=(4, 4, 2), vessels_num=30, rollout=eps_greedy====
+
+=== time_budget=1000
+info_delay_steps 3
+[MCTS] N=30, K=36, M=10, uav=2, tau=30.0min
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=1) with N=1748
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=1, ob_time_idx=0) with N=880
+total 0.0 r 0.0
+MCTS: root has 20 children, best action Action(uav_id=0, vessel_id=9, ob_time_idx=16) with N=1014
+total 0.0 r 0.0
+MCTS: root has 13 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=13) with N=6605
+total 13.144956187479108 r 13.144956187479108
+MCTS: root has 8 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=16) with N=18087
+total 45.4685041445825 r 32.323547957103386
+MCTS: root has 12 children, best action Action(uav_id=0, vessel_id=8, ob_time_idx=19) with N=7442
+total 45.4685041445825 r 0
+MCTS: root has 5 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=30) with N=15281
+total 57.244052989655614 r 11.775548845073118
+MCTS: root has 3 children, best action Action(uav_id=0, vessel_id=21, ob_time_idx=22) with N=26895
+total 74.2746990530079 r 17.03064606335228
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=34) with N=69040
+total 93.42271775379923 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=72497
+total 93.42271775379923 r 0.0
+[rep=0] reward=93.4227, served=6, decisions=10, time=10.002s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=2) with N=1506
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=1, ob_time_idx=0) with N=763
+total 0.0 r 0.0
+MCTS: root has 20 children, best action Action(uav_id=0, vessel_id=9, ob_time_idx=16) with N=1097
+total 0.0 r 0.0
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=12) with N=6742
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 9 children, best action Action(uav_id=1, vessel_id=10, ob_time_idx=22) with N=11164
+total 33.91411699675428 r 16.90684269607653
+MCTS: root has 7 children, best action Action(uav_id=0, vessel_id=8, ob_time_idx=19) with N=14606
+total 45.6896658418274 r 11.775548845073118
+MCTS: root has 3 children, best action Action(uav_id=0, vessel_id=21, ob_time_idx=22) with N=26657
+total 82.45846374072052 r 36.76879789889312
+MCTS: root has 3 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=34) with N=29194
+total 82.45846374072052 r 0
+MCTS: root has 2 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=27) with N=46369
+total 82.45846374072052 r 0.0
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=103747
+total 101.60648244151186 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=110937
+total 101.60648244151186 r 0.0
+[rep=1] reward=101.6065, served=6, decisions=11, time=11.002s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=2826
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=1, ob_time_idx=0) with N=1254
+total 0.0 r 0.0
+MCTS: root has 34 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=588
+total 0.0 r 0
+MCTS: root has 20 children, best action Action(uav_id=1, vessel_id=7, ob_time_idx=15) with N=1996
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=30, ob_time_idx=15) with N=12448
+total 52.06015895086617 r 35.05288465018842
+MCTS: root has 13 children, best action Action(uav_id=1, vessel_id=9, ob_time_idx=18) with N=10581
+total 52.06015895086617 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=18) with N=15802
+total 82.11195783442182 r 30.05179888355564
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=32, ob_time_idx=31) with N=13651
+total 82.11195783442182 r 0
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=21, ob_time_idx=22) with N=22061
+total 99.1426038977741 r 17.03064606335228
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=34) with N=103951
+total 118.29062259856543 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=111284
+total 118.29062259856543 r 0.0
+[rep=2] reward=118.2906, served=7, decisions=11, time=11.003s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=1919
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=1, ob_time_idx=0) with N=1156
+total 0.0 r 0.0
+MCTS: root has 34 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=824
+total 0.0 r 0
+MCTS: root has 20 children, best action Action(uav_id=0, vessel_id=7, ob_time_idx=15) with N=2175
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=15) with N=12640
+total 52.06015895086617 r 35.05288465018842
+MCTS: root has 13 children, best action Action(uav_id=0, vessel_id=9, ob_time_idx=18) with N=10434
+total 52.06015895086617 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=18) with N=15184
+total 82.11195783442182 r 30.05179888355564
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=13566
+total 82.11195783442182 r 0
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=21, ob_time_idx=22) with N=22226
+total 99.1426038977741 r 17.03064606335228
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=34) with N=103258
+total 118.29062259856543 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=111631
+total 118.29062259856543 r 0.0
+[rep=3] reward=118.2906, served=7, decisions=11, time=11.003s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=2) with N=1916
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=1, ob_time_idx=0) with N=626
+total 0.0 r 0.0
+MCTS: root has 20 children, best action Action(uav_id=1, vessel_id=9, ob_time_idx=16) with N=1094
+total 0.0 r 0.0
+MCTS: root has 14 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=12) with N=6799
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 9 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=22) with N=11279
+total 33.91411699675428 r 16.90684269607653
+MCTS: root has 7 children, best action Action(uav_id=1, vessel_id=8, ob_time_idx=19) with N=14583
+total 45.6896658418274 r 11.775548845073118
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=21, ob_time_idx=22) with N=26698
+total 82.45846374072052 r 36.76879789889312
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=34) with N=29387
+total 82.45846374072052 r 0
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=27) with N=46410
+total 82.45846374072052 r 0.0
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=32, ob_time_idx=31) with N=104248
+total 101.60648244151186 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=110537
+total 101.60648244151186 r 0.0
+[rep=4] reward=101.6065, served=6, decisions=11, time=11.003s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=2850
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=1, ob_time_idx=0) with N=769
+total 0.0 r 0.0
+MCTS: root has 34 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=707
+total 0.0 r 0
+MCTS: root has 20 children, best action Action(uav_id=1, vessel_id=7, ob_time_idx=15) with N=2029
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=30, ob_time_idx=15) with N=12505
+total 52.06015895086617 r 35.05288465018842
+MCTS: root has 13 children, best action Action(uav_id=1, vessel_id=9, ob_time_idx=18) with N=10168
+total 52.06015895086617 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=18) with N=15478
+total 82.11195783442182 r 30.05179888355564
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=32, ob_time_idx=31) with N=13712
+total 82.11195783442182 r 0
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=21, ob_time_idx=22) with N=22186
+total 99.1426038977741 r 17.03064606335228
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=34) with N=104641
+total 118.29062259856543 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=111336
+total 118.29062259856543 r 0.0
+[rep=5] reward=118.2906, served=7, decisions=11, time=11.003s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=2872
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=1, ob_time_idx=0) with N=1128
+total 0.0 r 0.0
+MCTS: root has 34 children, best action Action(uav_id=0, vessel_id=9, ob_time_idx=16) with N=531
+total 0.0 r 0
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=6536
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 10 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=12981
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=17) with N=13595
+total 47.05907318423339 r 16.90684269607653
+MCTS: root has 7 children, best action Action(uav_id=0, vessel_id=8, ob_time_idx=19) with N=13860
+total 62.47577844526025 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=25679
+total 74.25132729033336 r 11.775548845073118
+MCTS: root has 3 children, best action Action(uav_id=0, vessel_id=21, ob_time_idx=22) with N=29739
+total 91.28197335368564 r 17.03064606335228
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=34) with N=107066
+total 110.42999205447698 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=115279
+total 110.42999205447698 r 0.0
+[rep=6] reward=110.4300, served=7, decisions=11, time=11.003s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=2) with N=1208
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=1, ob_time_idx=0) with N=629
+total 0.0 r 0.0
+MCTS: root has 20 children, best action Action(uav_id=1, vessel_id=9, ob_time_idx=16) with N=1157
+total 0.0 r 0.0
+MCTS: root has 14 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=12) with N=6782
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 9 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=22) with N=11207
+total 33.91411699675428 r 16.90684269607653
+MCTS: root has 7 children, best action Action(uav_id=1, vessel_id=8, ob_time_idx=19) with N=14488
+total 45.6896658418274 r 11.775548845073118
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=21, ob_time_idx=22) with N=26730
+total 82.45846374072052 r 36.76879789889312
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=34) with N=29035
+total 82.45846374072052 r 0
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=27) with N=46307
+total 82.45846374072052 r 0.0
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=32, ob_time_idx=31) with N=103321
+total 101.60648244151186 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=111120
+total 101.60648244151186 r 0.0
+[rep=7] reward=101.6065, served=6, decisions=11, time=11.002s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=2037
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=751
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=434
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=2905
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=1791
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=17325
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=0, vessel_id=30, ob_time_idx=17) with N=4628
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=1, vessel_id=14, ob_time_idx=19) with N=12290
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=0, vessel_id=32, ob_time_idx=31) with N=24051
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=21) with N=42864
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=102788
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=110129
+total 90.34775269731475 r 0.0
+[rep=8] reward=90.3478, served=6, decisions=12, time=12.004s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=2249
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=1, ob_time_idx=1) with N=1030
+total 0.0 r 0.0
+MCTS: root has 35 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=11) with N=525
+total 0.0 r 0
+MCTS: root has 22 children, best action Action(uav_id=1, vessel_id=15, ob_time_idx=11) with N=6628
+total 31.277513294993152 r 31.277513294993152
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=1, ob_time_idx=21) with N=6142
+total 31.277513294993152 r 0
+MCTS: root has 9 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=21) with N=10399
+total 51.01566513053399 r 19.73815183554084
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=11, ob_time_idx=26) with N=22578
+total 51.01566513053399 r 0
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=26) with N=34173
+total 62.95359818441658 r 11.93793305388259
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=32, ob_time_idx=30) with N=33393
+total 62.95359818441658 r 0
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=1, ob_time_idx=31) with N=71106
+total 82.10161688520792 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=74068
+total 82.10161688520792 r 0.0
+[rep=9] reward=82.1016, served=5, decisions=11, time=11.003s
+
+=== SPs=(4, 4, 2), vessels_num=30, rollout=eps_greedy====
+
+=== time_budget=5000
+info_delay_steps 3
+[MCTS] N=30, K=36, M=10, uav=2, tau=30.0min
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=6244
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=1, ob_time_idx=0) with N=6297
+total 0.0 r 0.0
+MCTS: root has 34 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=4627
+total 0.0 r 0
+MCTS: root has 20 children, best action Action(uav_id=0, vessel_id=7, ob_time_idx=15) with N=25779
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=15) with N=63074
+total 52.06015895086617 r 35.05288465018842
+MCTS: root has 13 children, best action Action(uav_id=0, vessel_id=9, ob_time_idx=18) with N=44206
+total 52.06015895086617 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=18) with N=66766
+total 82.11195783442182 r 30.05179888355564
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=59810
+total 82.11195783442182 r 0
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=21, ob_time_idx=22) with N=107705
+total 99.1426038977741 r 17.03064606335228
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=34) with N=521629
+total 118.29062259856543 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=560093
+total 118.29062259856543 r 0.0
+[rep=0] reward=118.2906, served=7, decisions=11, time=55.003s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=8233
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=4226
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=4256
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=43402
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=24957
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=93816
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=0, vessel_id=30, ob_time_idx=17) with N=23631
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=1, vessel_id=14, ob_time_idx=19) with N=47216
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=0, vessel_id=32, ob_time_idx=31) with N=115345
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=21) with N=210442
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=513396
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=550275
+total 90.34775269731475 r 0.0
+[rep=1] reward=90.3478, served=6, decisions=12, time=60.003s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=5502
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=1, ob_time_idx=0) with N=4429
+total 0.0 r 0.0
+MCTS: root has 34 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=4615
+total 0.0 r 0
+MCTS: root has 20 children, best action Action(uav_id=1, vessel_id=7, ob_time_idx=15) with N=25195
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=30, ob_time_idx=15) with N=62747
+total 52.06015895086617 r 35.05288465018842
+MCTS: root has 13 children, best action Action(uav_id=1, vessel_id=9, ob_time_idx=18) with N=44380
+total 52.06015895086617 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=18) with N=66422
+total 82.11195783442182 r 30.05179888355564
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=32, ob_time_idx=31) with N=60050
+total 82.11195783442182 r 0
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=21, ob_time_idx=22) with N=107768
+total 99.1426038977741 r 17.03064606335228
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=34) with N=521563
+total 118.29062259856543 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=558757
+total 118.29062259856543 r 0.0
+[rep=2] reward=118.2906, served=7, decisions=11, time=55.003s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=6795
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=1, ob_time_idx=0) with N=4068
+total 0.0 r 0.0
+MCTS: root has 34 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=4561
+total 0.0 r 0
+MCTS: root has 20 children, best action Action(uav_id=0, vessel_id=7, ob_time_idx=15) with N=25704
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=15) with N=62832
+total 52.06015895086617 r 35.05288465018842
+MCTS: root has 13 children, best action Action(uav_id=0, vessel_id=9, ob_time_idx=18) with N=44559
+total 52.06015895086617 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=18) with N=66020
+total 82.11195783442182 r 30.05179888355564
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=59864
+total 82.11195783442182 r 0
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=21, ob_time_idx=22) with N=108162
+total 99.1426038977741 r 17.03064606335228
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=34) with N=521784
+total 118.29062259856543 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=559566
+total 118.29062259856543 r 0.0
+[rep=3] reward=118.2906, served=7, decisions=11, time=55.003s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=9693
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=5365
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=4113
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=43026
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=25566
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=95997
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=0, vessel_id=30, ob_time_idx=17) with N=23125
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=19) with N=55960
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=0, vessel_id=32, ob_time_idx=31) with N=114964
+total 58.624851721813805 r 13.05591597263009
+MCTS: root has 2 children, best action Action(uav_id=1, vessel_id=14, ob_time_idx=21) with N=210254
+total 71.19973399652339 r 12.574882274709593
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=512661
+total 90.34775269731473 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=550972
+total 90.34775269731473 r 0.0
+[rep=4] reward=90.3478, served=6, decisions=12, time=60.003s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=6118
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=4589
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=3915
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=43813
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=25209
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=93853
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=17) with N=22837
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=19) with N=48214
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=115305
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=210515
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=512956
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=548945
+total 90.34775269731475 r 0.0
+[rep=5] reward=90.3478, served=6, decisions=12, time=60.013s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=6073
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=7400
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=4101
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=41944
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=25595
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=93185
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=17) with N=23140
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=19) with N=56298
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=115053
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=209837
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=510749
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=548691
+total 90.34775269731475 r 0.0
+[rep=6] reward=90.3478, served=6, decisions=12, time=60.004s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=1) with N=4041
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=1, ob_time_idx=1) with N=3215
+total 0.0 r 0.0
+MCTS: root has 35 children, best action Action(uav_id=0, vessel_id=10, ob_time_idx=5) with N=5782
+total 0.0 r 0
+MCTS: root has 22 children, best action Action(uav_id=1, vessel_id=7, ob_time_idx=16) with N=24327
+total 19.73815183554084 r 19.73815183554084
+MCTS: root has 10 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=16) with N=63677
+total 56.38160552538015 r 36.64345368983931
+MCTS: root has 9 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=26) with N=42820
+total 56.38160552538015 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=9, ob_time_idx=19) with N=59655
+total 73.28844822145669 r 16.90684269607653
+MCTS: root has 2 children, best action Action(uav_id=1, vessel_id=1, ob_time_idx=35) with N=183430
+total 73.28844822145669 r 0.0
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=32, ob_time_idx=30) with N=496331
+total 92.43646692224803 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=530089
+total 92.43646692224803 r 0.0
+[rep=7] reward=92.4365, served=5, decisions=10, time=50.003s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=7331
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=1, ob_time_idx=0) with N=4758
+total 0.0 r 0.0
+MCTS: root has 34 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=4892
+total 0.0 r 0
+MCTS: root has 20 children, best action Action(uav_id=0, vessel_id=7, ob_time_idx=15) with N=25250
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=15) with N=63175
+total 52.06015895086617 r 35.05288465018842
+MCTS: root has 13 children, best action Action(uav_id=0, vessel_id=9, ob_time_idx=18) with N=44476
+total 52.06015895086617 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=18) with N=64445
+total 82.11195783442182 r 30.05179888355564
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=60139
+total 82.11195783442182 r 0
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=21, ob_time_idx=22) with N=108470
+total 99.1426038977741 r 17.03064606335228
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=34) with N=523102
+total 118.29062259856543 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=561764
+total 118.29062259856543 r 0.0
+[rep=8] reward=118.2906, served=7, decisions=11, time=55.003s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=5587
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=4862
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=3769
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=43193
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=25053
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=93782
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=0, vessel_id=30, ob_time_idx=17) with N=23364
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=1, vessel_id=14, ob_time_idx=19) with N=55617
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=0, vessel_id=24, ob_time_idx=20) with N=114258
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=21) with N=202885
+total 76.02732958003335 r 17.883511556140043
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=514646
+total 89.08324555266344 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=551593
+total 89.08324555266344 r 0.0
+[rep=9] reward=89.0832, served=6, decisions=12, time=60.003s
+
+=== SPs=(4, 4, 2), vessels_num=30, rollout=eps_greedy====
+
+=== time_budget=10000
+info_delay_steps 3
+[MCTS] N=30, K=36, M=10, uav=2, tau=30.0min
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=9948
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=11010
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=10144
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=115030
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=56346
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=184483
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=0, vessel_id=30, ob_time_idx=17) with N=41215
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=1, vessel_id=14, ob_time_idx=19) with N=108678
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=0, vessel_id=32, ob_time_idx=31) with N=227630
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=21) with N=418856
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=1027690
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=1097138
+total 90.34775269731475 r 0.0
+[rep=0] reward=90.3478, served=6, decisions=12, time=120.003s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=12234
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=10282
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=9044
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=118275
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=58471
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=181881
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=0, vessel_id=30, ob_time_idx=17) with N=45868
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=1, vessel_id=14, ob_time_idx=19) with N=108754
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=0, vessel_id=32, ob_time_idx=31) with N=227323
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=21) with N=418575
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=1027829
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=1098230
+total 90.34775269731475 r 0.0
+[rep=1] reward=90.3478, served=6, decisions=12, time=120.003s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=9023
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=13110
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=8031
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=116814
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=56135
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=179382
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=0, vessel_id=30, ob_time_idx=17) with N=44988
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=1, vessel_id=14, ob_time_idx=19) with N=92642
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=0, vessel_id=32, ob_time_idx=31) with N=227211
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=21) with N=417166
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=1024577
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=1097741
+total 90.34775269731475 r 0.0
+[rep=2] reward=90.3478, served=6, decisions=12, time=120.003s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=10174
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=9668
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=7764
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=120452
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=58268
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=179407
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=0, vessel_id=30, ob_time_idx=17) with N=46282
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=1, vessel_id=14, ob_time_idx=19) with N=92556
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=0, vessel_id=32, ob_time_idx=31) with N=226236
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=1, vessel_id=13, ob_time_idx=21) with N=417402
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=34) with N=1026336
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=1096466
+total 90.34775269731475 r 0.0
+[rep=3] reward=90.3478, served=6, decisions=12, time=120.003s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=14288
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=14266
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=8775
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=118009
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=55484
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=179995
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=17) with N=46340
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=19) with N=108752
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=227705
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=417675
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=1024388
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=1099852
+total 90.34775269731475 r 0.0
+[rep=4] reward=90.3478, served=6, decisions=12, time=120.003s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=10152
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=10957
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=8320
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=117511
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=57721
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=183280
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=17) with N=45989
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=19) with N=92173
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=227819
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=419425
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=1029087
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=1099302
+total 90.34775269731475 r 0.0
+[rep=5] reward=90.3478, served=6, decisions=12, time=120.003s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=11661
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=16102
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=7961
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=115742
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=56148
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=179124
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=17) with N=46242
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=19) with N=93057
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=227844
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=417726
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=1031886
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=1103996
+total 90.34775269731475 r 0.0
+[rep=6] reward=90.3478, served=6, decisions=12, time=120.003s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=14028
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=1, ob_time_idx=0) with N=9587
+total 0.0 r 0.0
+MCTS: root has 34 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=16125
+total 0.0 r 0
+MCTS: root has 20 children, best action Action(uav_id=0, vessel_id=7, ob_time_idx=15) with N=53238
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=15) with N=120785
+total 52.06015895086617 r 35.05288465018842
+MCTS: root has 13 children, best action Action(uav_id=0, vessel_id=9, ob_time_idx=18) with N=80614
+total 52.06015895086617 r 0
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=18) with N=124970
+total 82.11195783442182 r 30.05179888355564
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=115270
+total 82.11195783442182 r 0
+MCTS: root has 4 children, best action Action(uav_id=0, vessel_id=21, ob_time_idx=22) with N=214492
+total 99.1426038977741 r 17.03064606335228
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=34) with N=1044981
+total 118.29062259856543 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=1116028
+total 118.29062259856543 r 0.0
+[rep=7] reward=118.2906, served=7, decisions=11, time=110.003s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=11149
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=12035
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=7640
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=117929
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=56302
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=185225
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=17) with N=47145
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=19) with N=108309
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=227704
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=417821
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=1026535
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=1098135
+total 90.34775269731475 r 0.0
+[rep=8] reward=90.3478, served=6, decisions=12, time=120.004s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=9966
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=10784
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=7862
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=118692
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=56545
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=182474
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=17) with N=46394
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=19) with N=108084
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=227024
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=417953
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=1026404
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=1091810
+total 90.34775269731475 r 0.0
+[rep=9] reward=90.3478, served=6, decisions=12, time=120.016s
+
+=== SPs=(4, 4, 2), vessels_num=30, rollout=eps_greedy====
+
+=== time_budget=30000
+info_delay_steps 3
+[MCTS] N=30, K=36, M=10, uav=2, tau=30.0min
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=23963
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=49623
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=36898
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=405715
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=169738
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=498876
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=17) with N=114658
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=19) with N=259870
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=662404
+total 58.624851721813805 r 13.05591597263009
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=21) with N=1241502
+total 71.19973399652339 r 12.574882274709593
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=3049530
+total 90.34775269731473 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=3280989
+total 90.34775269731473 r 0.0
+[rep=0] reward=90.3478, served=6, decisions=12, time=360.003s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=26954
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=1, ob_time_idx=0) with N=34420
+total 0.0 r 0.0
+MCTS: root has 34 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=89427
+total 0.0 r 0
+MCTS: root has 20 children, best action Action(uav_id=1, vessel_id=7, ob_time_idx=15) with N=164914
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=30, ob_time_idx=15) with N=325545
+total 52.06015895086617 r 35.05288465018842
+MCTS: root has 13 children, best action Action(uav_id=1, vessel_id=9, ob_time_idx=18) with N=203836
+total 52.06015895086617 r 0
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=18) with N=340486
+total 82.11195783442182 r 30.05179888355564
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=32, ob_time_idx=31) with N=330576
+total 82.11195783442182 r 0
+MCTS: root has 4 children, best action Action(uav_id=1, vessel_id=21, ob_time_idx=22) with N=636409
+total 99.1426038977741 r 17.03064606335228
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=0, ob_time_idx=34) with N=3120565
+total 118.29062259856543 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=35) with N=3347191
+total 118.29062259856543 r 0.0
+[rep=1] reward=118.2906, served=7, decisions=11, time=330.003s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=21834
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=0) with N=28316
+total 0.0 r 0.0
+MCTS: root has 22 children, best action Action(uav_id=0, vessel_id=21, ob_time_idx=11) with N=96946
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=232105
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=320182
+total 34.03792036403003 r 17.03064606335228
+MCTS: root has 8 children, best action Action(uav_id=0, vessel_id=27, ob_time_idx=13) with N=466863
+total 48.11619647088587 r 14.07827610685584
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=8, ob_time_idx=17) with N=420730
+total 61.26115265836498 r 13.144956187479108
+MCTS: root has 6 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=17) with N=342429
+total 88.45340676446494 r 27.192254106099973
+MCTS: root has 6 children, best action Action(uav_id=0, vessel_id=5, ob_time_idx=27) with N=397605
+total 88.45340676446494 r 0
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=725084
+total 107.78135623495777 r 19.32794947049282
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=0, ob_time_idx=35) with N=2642547
+total 126.92937493574911 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=2797810
+total 126.92937493574911 r 0.0
+[rep=2] reward=126.9294, served=8, decisions=12, time=360.003s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=21830
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=51858
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=42734
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=442767
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=170437
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=506335
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=17) with N=130710
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=19) with N=313959
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=673041
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=1249401
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=3080012
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=3292282
+total 90.34775269731475 r 0.0
+[rep=3] reward=90.3478, served=6, decisions=12, time=360.003s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=25737
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=47011
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=35961
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=435703
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=181157
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=499219
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=17) with N=129921
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=19) with N=313887
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=673341
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=1248252
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=3075358
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=3292456
+total 90.34775269731475 r 0.0
+[rep=4] reward=90.3478, served=6, decisions=12, time=360.004s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=21901
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=51543
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=36840
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=439226
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=176850
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=500172
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=17) with N=117376
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=19) with N=313050
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=673758
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=1246143
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=3075471
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=3288337
+total 90.34775269731475 r 0.0
+[rep=5] reward=90.3478, served=6, decisions=12, time=360.003s
+MCTS: root has 50 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=23181
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=53065
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=36068
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=417663
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=179034
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=492359
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=17) with N=132197
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=19) with N=314941
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=24, ob_time_idx=20) with N=674621
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=1211115
+total 76.02732958003335 r 17.883511556140043
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=3092082
+total 89.08324555266344 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=3310194
+total 89.08324555266344 r 0.0
+[rep=6] reward=89.0832, served=6, decisions=12, time=360.003s
+MCTS: root has 50 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=0) with N=25595
+total 0.0 r 0.0
+MCTS: root has 25 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=0) with N=51775
+total 0.0 r 0.0
+MCTS: root has 30 children, best action Action(uav_id=0, vessel_id=16, ob_time_idx=9) with N=36442
+total 0.0 r 0
+MCTS: root has 15 children, best action Action(uav_id=1, vessel_id=16, ob_time_idx=9) with N=429773
+total 17.00727430067775 r 17.00727430067775
+MCTS: root has 22 children, best action Action(uav_id=1, vessel_id=6, ob_time_idx=14) with N=183110
+total 17.00727430067775 r 0
+MCTS: root has 11 children, best action Action(uav_id=0, vessel_id=6, ob_time_idx=14) with N=500801
+total 30.15223048815686 r 13.144956187479108
+MCTS: root has 14 children, best action Action(uav_id=1, vessel_id=30, ob_time_idx=17) with N=130207
+total 30.15223048815686 r 0
+MCTS: root has 7 children, best action Action(uav_id=0, vessel_id=14, ob_time_idx=19) with N=268054
+total 45.568935749183716 r 15.416705261026854
+MCTS: root has 3 children, best action Action(uav_id=1, vessel_id=32, ob_time_idx=31) with N=676299
+total 58.14381802389331 r 12.574882274709593
+MCTS: root has 2 children, best action Action(uav_id=0, vessel_id=13, ob_time_idx=21) with N=1248839
+total 71.1997339965234 r 13.05591597263009
+MCTS: root has 1 children, best action Action(uav_id=0, vessel_id=2, ob_time_idx=34) with N=3076741
+total 90.34775269731475 r 19.148018700791336
+MCTS: root has 1 children, best action Action(uav_id=1, vessel_id=2, ob_time_idx=35) with N=3306703
+total 90.34775269731475 r 0.0
+[rep=7] reward=90.3478, served=6, decisions=12, time=360.004s

@@ -149,14 +149,16 @@ def main():
         with open(txt_path, "w", encoding="utf-8") as f:
             sys.stdout = Tee(old_stdout, f)
             try:
-                for drones in range(1, 4):
+                for drones in range(2, 4):
                     for vessels in range(10, 60, 20):
-                        for time_budget in [5000, 10000, 15000, 20000, 25000, 30000]:
+                        if drones == 2 and vessels < 50 and rollout_policy == "random":
+                            continue
+                        for time_budget in [1000, 5000, 10000, 30000]:
                             args.mcts_budget_ms = time_budget
                             print(f"\n=== SPs={(4, 4, drones)}, vessels_num={vessels}, rollout={args.rollout_policy}====")
                             print(f"\n=== time_budget={time_budget}")
                             run_mcts_group(args, wb, vessels_num=vessels, drones_num=drones)
-                wb.save(xlsx_path)
+                            wb.save(xlsx_path)
                 print(f"[OK] wrote excel: {xlsx_path}")
                 print(f"[OK] wrote log:   {txt_path}")
             finally:
